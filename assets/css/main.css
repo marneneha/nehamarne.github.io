@@ -3194,6 +3194,15 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+	.float-container{
+		display: flex;
+	}
+	.carousel_content{
+
+	}
+	.carousel-inner{
+		
+	}
 /* Wrapper */
 
 	.wrapper {
