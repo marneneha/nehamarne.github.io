@@ -3198,10 +3198,18 @@ input, select, textarea {
 		display: flex;
 	}
 	.carousel_content{
-
+		border-left-width: 0.35em;
+		right: 0;
+		height: 101%;
+		padding: 6em 3em;
+		top: 0;
+		width: 28em;
+		border-color:#e44c65;
+		border-left-width: 0.35em;
+		border-style: solid;
 	}
 	.carousel-inner{
-		
+
 	}
 /* Wrapper */
 
