@@ -3196,22 +3196,33 @@ input, select, textarea {
 
 	.float-container{
 		display: flex;
+		transition: transform 1s;
+		padding: 0em 4em;
 	}
 	.right_carousel_content{
 		border-left-width: 0.35em;
 		right: 0;
 		height: 101%;
-		padding: 6em 3em;
+		padding: 11em 3em;
 		top: 0;
 		width: 28em;
 		border-color:#e44c65;
 		border-style: solid;
+		/* background-color: red; */
+		transition-property: width;
+		transition-duration: .5s;
 	}
+	.right_carousel_content:start{
+		width: 30em;
+	}
+	/* .right_carousel_content:hover{
+		width: 30em;
+	} */
 	.left_carousel_content{
-		border-left-width: 0.35em;
+		border-right-width: 0.35em;
 		right: 0;
 		height: 101%;
-		padding: 6em 3em;
+		padding: 11em 3em;
 		top: 0;
 		width: 28em;
 		border-color:#39c088;
@@ -3221,9 +3232,13 @@ input, select, textarea {
 		width: 67%;
 		/* height: 10%; */
 		/* float: 10%; */
+		transition: transform 1s;
 		display: block;
 		margin: auto;
 	}
+	/* .right_carousel_show{
+		opacity: 1;
+	} */
 /* Wrapper */
 
 	.wrapper {
