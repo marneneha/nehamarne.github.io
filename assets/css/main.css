@@ -1365,7 +1365,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 2.5em;
+						padding: 0 0 0 0.5em;
 					}
 
 					.row.gtr-uniform {
@@ -3085,7 +3085,7 @@ input, select, textarea {
 			transition: transform 1s ease, opacity 1s ease;
 			background: rgba(23, 24, 32, 0.95);
 			border-style: solid;
-			opacity: 1;
+			opacity: 0.85;
 			position: absolute;
 		}
 
@@ -3107,7 +3107,7 @@ input, select, textarea {
 
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
-			padding: 5.1em 0 3.1em 0;
+			padding: 1em 0 1em 0;
 			width: 100%;
 		}
 
@@ -3227,6 +3227,9 @@ input, select, textarea {
 		width: 28em;
 		border-color:#39c088;
 		border-style: solid;
+	}
+	.left_carousel_content.button:hover{
+		background-color: #39c088;	
 	}
 	.carousel-inner{
 		width: 67%;
@@ -3661,7 +3664,7 @@ input, select, textarea {
 			}
 
 			.spotlight.bottom .content {
-				padding: 3.825em 0 2.95em 0;
+				padding: 1.825em 0 0.95em 0;
 			}
 
 			.spotlight.left .content, .spotlight.right .content {
