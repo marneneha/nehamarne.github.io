@@ -32,17 +32,18 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Landed</a></h1>
+					<h1 id="logo"><a href="index.html">Home</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="#one">About Me</a></li>
 							<li>
-								<a href="#">Layouts</a>
+								<a href="#two">Projects</a>
 								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
+									<li><a href="#two"> Multi-agent sytems</a></li>
+									<li><a href="#three">Autonomous Vehicle</a></li>
+									<li><a href="#four">Machine Learning</a></li>
+									<li><a href="#five">Miscillenious</a></li>
+									<!-- <li>
 										<a href="#">Submenu</a>
 										<ul>
 											<li><a href="#">Option 1</a></li>
@@ -50,11 +51,13 @@
 											<li><a href="#">Option 3</a></li>
 											<li><a href="#">Option 4</a></li>
 										</ul>
-									</li>
+									</li> -->
 								</ul>
 							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
+							<li><a href="#six">Activities</a></li>
+							<li><a href="skills.html">Skills</a></li>
+							<li><a href="experience.html">Experiences</a></li>
+							<li><a href="#footer" class="button primary">Contact</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -63,10 +66,13 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h2>Neha Marne!</h2>
-							<p>I can make pile of wires and ICs walk.<br>
+							<h2 style="text-align:left;">Neha Marne!</h2>
+							<p style="text-align:left;">I can make pile of wires and ICs walk.<br>
 								Working to make them think. <br> Provided I get my coffee. 
 							</p>
+							<ul class="actions">
+								<li><a href="https://drive.google.com/file/d/19h2tg38eZNbpF8weqONRUmwf6-MHnwxg/view?usp=sharing" class="button">Resume</a></li>
+							</ul>
 						</header>
 						<span class="image"><img src="images/neha.jpg" alt="" /></span>
 					</div>
@@ -142,7 +148,7 @@
 									<h1>The coherence was assessed by the Boid algorithm.</h1>
 									<h1><a href="https://github.com/nehamarne27/neha1/tree/master/src/neha_pkg1" class="button">GitHub</a></h1>
 								</div>
-									<h2>Swarm coherence with minimum computation</h2>
+								<h2>Swarm coherence with minimum computation</h2>
 							  </div>
 							  <div class="item">
 								<img src="images/OLSAC.png" alt="OLSAC" style="width:100%;">
@@ -170,9 +176,9 @@
 						<div class="right_carousel_content" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="400">
 							<header>
 								<h2>Multi-agent systems</h2>
-								<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+								<!-- <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p> -->
 							</header>
-							<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+							<p>I worked on developing algorithms for both UAVs and UGVs on Hardware, such as an UAV swarm localization with minimum computation and an A* planner for three UGVs. Additionally, I led a team that created a swarm of three UAVs that demonstrated impressive flocking and foraging abilities using the BUZZ programming language. Furthermore, I worked on a library for swarm navigation of three UGVs from scratch, which involved mesh network implementation, PID, odometry, and occupancy grid updates. These projects are a part of my multi-agent system work portfolio.</p>
 							<!-- <ul class="actions">
 								<li><a href="#" class="button">Learn More</a></li>
 							</ul> -->
@@ -184,19 +190,18 @@
 				<!-- </div> -->
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</section>
-
 			<!-- three -->
 				<section id="three">
 					<div class="float-container">
 						<div class="left_carousel_content" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
 							<header>
 								<h2>Autonomous Vehicle</h2>
-								<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+								<!-- <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p> -->
 							</header>
-							<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-							<ul class="actions">
+							<p>I implemented an algorithm to update the bot's motion according to the obstacle density obtained from the 2D-lidar scans with PCL. Additionally, I achieved UAV localization using SfM algorithm and sensor fusion using EKF algorithm on differential drive bot with lidar data for correction. These projects have honed my skills in algorithm development, sensor fusion, and autonomous navigation.</p>
+							<!-- <ul class="actions">
 								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
+							</ul> -->
 						</div>
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
@@ -211,10 +216,26 @@
 							<div class="carousel-inner">
 							<div class="item active">
 								<img src="images/RRT.png" alt="RRT" style="width:100%;">
+								<div class="overlay">
+									<h1>Implemented Rapidly-exploring Random Trees RRT & RRT* algorithm on 2d map image using python & CV2.</h1>
+									<!-- <h1>We Updated the occupancy grid with targets and obstacles detected from a monocular camera of three bots</h1> -->
+									<!-- <h1>In group of three, my contribution was in implementing A* planner for the swarm</h1> -->
+									<!-- <h1>Hardware: Logitech C270, XBEE, TM4C123gxl(TIVA), Quadrature encoder</h1> -->
+									<h1><a href="https://github.com/marneneha/motion-planning" class="button">GitHub</a></h1>
+								</div>
+								<h2>Rapidly-exploring Random Trees RRT</h2>
 							</div>
 
 							<div class="item">
 								<img src="images/mowito.GIF" alt="mowito" style="width:100%;">
+								<div class="overlay">
+									<h1>This Project deals with updating bot's motion accourding to obstacle desity around it</h1>
+									<h1>It was done for Mowito company as part of my internship</h1>
+									<h1>Clustered the 2-D lidar data using eucleadian clustering and updated the motion primitives according to numer of obstacle around the bot</h1>
+									<h1>which streamlined the bot's motion and reduced computation power.</h1>
+									<h1><a href="https://drive.google.com/file/d/1erXmrzoe2PaRxIwfCwLyBfy21JwYN4Lc/view?usp=share_link" class="button">Video</a></h1>
+								</div>
+								<h2>Rapidly-exploring Random Trees RRT</h2>							
 							</div>
 
 							<!-- <div class="item">
@@ -252,6 +273,13 @@
 							<div class="carousel-inner">
 							<div class="item active">
 								<img src="images/4ccluster_spectral_clustering result.png" alt="clustering" style="width:100%;">
+								<div class="overlay">
+									<h1>Spectral clustering algorithm was implemented from scratch on 2D point cloud in MATLAB.</h1> <!-- <h1>We Updated the occupancy grid with targets and obstacles detected from a monocular camera of three bots</h1> -->
+									<!-- <h1>In group of three, my contribution was in implementing A* planner for the swarm</h1> -->
+									<!-- <h1>Hardware: Logitech C270, XBEE, TM4C123gxl(TIVA), Quadrature encoder</h1> -->
+									<h1><a href="https://drive.google.com/file/d/1KMnryFACFJ7Vtg5NkqFsvdm9kMUTidGp/view?usp=sharing" class="button">Code</a></h1>
+								</div>
+								<h2>Spectral Clustering</h2> 
 							</div>
 <!-- 
 							<div class="item">
@@ -280,17 +308,16 @@
 						<div class="right_carousel_content" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="400">
 							<header>
 								<h2>Machine Learning</h2>
-								<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+								<!-- <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p> -->
 							</header>
-							<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-							<ul class="actions">
+							<p>I have experience in machine learning, including face recognition where I classified 200 images using Bayesian and KNN classifiers with run time optimization using MDA and PCA in MATLAB. I also recognized digits of MNIST dataset using various algorithms such as Linear & Logistic regression, CNN, and kernel SVM in Python. In addition, I implemented K-means and spectral clustering from scratch in MATLAB for clustering the spiral dataset. These projects have enhanced my skills in classification, regression, clustering, and optimization.</p>
+							<!-- <ul class="actions">
 								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 					<a href="#five" class="goto-next scrolly">Next</a>
-				</section>
-			
+				</section>		
 			<!-- Five -->
 				<section id="five">
 					<div class="float-container">
@@ -298,12 +325,13 @@
 						<div class="left_carousel_content" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
 							<header>
 								<h2>Miscillenious</h2>
-								<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+								<!-- <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p> -->
 							</header>
-							<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-							<ul class="actions">
+							<p>In my free time, I try to learn different algorithms and implementations to connect the dots.
+								These are some of the projects like implementing snake motions on a snake bot and landing an UAV on an April Tag. hrough these projects, I developed a deeper appreciation for concepts of Inverse Kinematics and motion planning.</p>
+							<!-- <ul class="actions">
 								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
+							</ul> -->
 						</div>
 
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -319,9 +347,25 @@
 							<div class="carousel-inner">
 							<div class="item active">
 								<img src="images/marker_lander_edited_compressed.gif" alt="marker_lander" style="width:100%;">
+								<div class="overlay">
+									<h1>This project deals with landing an UAV on a marker.</h1> 
+									<h1>The UAV will increament on hieght until it finds the marker.</h1>
+									<h1>Once the april tags are dected the UAV will move towards the tag and land on it.</h1>
+									<!-- <h1>Hardware: Logitech C270, XBEE, TM4C123gxl(TIVA), Quadrature encoder</h1> -->
+									<h1><a href="https://github.com/marneneha/marker_lander.git" class="button">GitHub</a></h1>
+								</div>
+								<h2>Marker Lander</h2> 
 							</div>
 							<div class="item">
 								<img src="images/snake.gif" alt="snake" style="width:100%;">
+								<div class="overlay">
+									<h1>Co-Designed the bot in solidworks.</h1>
+									<h1>Formed the Jacobian matrix and formulated Inverse Kinematics equation.</h1>
+									<h1>Achieved snake motions of side-winding, rolling, and linear propagation in ROS+Gazebo environment.</h1>
+									<!-- <h1>Hardware: Logitech C270, XBEE, TM4C123gxl(TIVA), Quadrature encoder</h1> -->
+									<h1><a href="https://github.com/marneneha/snake.git" class="button">GitHub</a></h1>
+								</div>
+								<h2>Snake Robot</h2> 
 							</div>
 							<!-- <div class="item">
 								<img src="images/neha.jpg" alt="New york" style="width:100%;">
@@ -349,48 +393,50 @@
 					<div class="container">
 						<header class="major">
 							<h2>Activities</h2>
-							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+							<!-- <p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p> -->
 						</header>
 						<div class="box alt">
 							<div class="row gtr-uniform">
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-chart-area"></span>
 									<h3>IEEE Member</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<p>Conducted workshops on basics of micro-controllers & basics of electronics to 100+ audience.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-comment"></span>
+									<!-- <span class="icon solid alt major" img src=images/classRepresentative.JPG" "></span> -->
+									<img src="images/classRepresentative.JPG" alt="classRepresentative" style="width:50%;">
 									<h3>Class Representative</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<p>Managed intra and inter- departmental events.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-flask"></span>
+									<!-- <span class="icon solid alt major fa-flask"></span> -->
+									<img src="images/goa.jpg" alt="Goa" style="width:50%;">
 									<h3>Travel</h3>
 									<p>Born in Mumbai, studied in Nagpur and have travelled 9 Indian states and 5 countries.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-paper-plane"></span>
 									<h3>Theater</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<p>Paticipated in various Intra and inter University stage play competitions during my undergraduate.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-file"></span>
 									<h3>Event-orginizer</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<p>Organized robotics event aimed to make variable terrain gripper robot.</p>
 								</section>
 								<section class="col-4 col-6-medium col-12-xsmall">
 									<span class="icon solid alt major fa-lock"></span>
 									<h3>Music</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<p>An Earworm but listens to songs in Tamil, Hindi to Ukrainian.</p>
 								</section>
 							</div>
-						</div>
+						<!-- </div>
 						<footer class="major">
 							<ul class="actions special">
 								<li><a href="#" class="button">Magna sed feugiat</a></li>
 							</ul>
 						</footer>
-					</div>
+					</div> -->
 				</section>
 
 			<!-- seven -->
@@ -414,10 +460,10 @@
 					<ul class="icons">
 						<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
 						<!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.linkedin.com/in/marneneha/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 						<!-- <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<!-- <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li> -->
+						<li><a href="https://github.com/marneneha" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:nmarne@umd.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<!-- <ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
