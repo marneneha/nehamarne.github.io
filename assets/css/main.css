@@ -3239,6 +3239,11 @@ input, select, textarea {
 		display: block;
 		margin: auto;
 	}
+	.carousel-image {
+		margin: 0 auto; /* this will align the image to center. */
+		width: auto; /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
+	}
+	
 	.overlay{
 		position: absolute;
 		bottom: 0;
